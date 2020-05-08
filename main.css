@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .container {
   width: 100vw;
   height: 100vh;
@@ -8,10 +13,54 @@
 
 .section {
   margin: auto;
-  width: 65%;
+  width: 50%;
 }
 
 .img-responsive {
   width: 100%;
+}
+
+.yt-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.yt-container iframe, .yt-container object, .yt-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.links {
+  margin: auto;
+  font-size: 50px;
+}
+
+.links i {
+  margin-left: 1rem;
+}
+
+.links a {
+  color: black;
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+  .section {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
