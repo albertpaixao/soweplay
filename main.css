@@ -6,14 +6,13 @@
 .container {
   width: 100vw;
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .section {
   margin: auto;
   width: 50%;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .img-responsive {
@@ -46,7 +45,7 @@
 
 .links {
   margin: auto;
-  font-size: 50px;
+  font-size: 35px;
 }
 
 .links i {
@@ -57,10 +56,14 @@
   color: black;
 }
 
+.texto {
+  text-align: center;
+}
+
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
   .section {
-    width: 100%;
+    width: 80%;
   }
 }
 /*# sourceMappingURL=main.css.map */
